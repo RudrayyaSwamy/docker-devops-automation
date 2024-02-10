@@ -13,7 +13,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t rudrayyaswamy/docker-devops-automation .'
+                    sh 'docker build -t rudrayyaswamy/docker-devops-automation.jar .'
                 }
             }
         }
