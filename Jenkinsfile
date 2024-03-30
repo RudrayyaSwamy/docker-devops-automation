@@ -24,6 +24,7 @@ pipeline {
                    sh 'docker login -u rudrayyaswamy -p Rudrayya@123'
 
 }
+                   sh  'docker tag rudrayyaswamexampley/docker-devops-automation.jar rudrayyaswamy/docker-devops-automation'
                    sh 'docker push rudrayyaswamy/docker-devops-automation'
                 }
             }
